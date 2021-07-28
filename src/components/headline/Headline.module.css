@@ -1,0 +1,42 @@
+
+.headline {
+  display: flex;
+  align-items: center;
+}
+.thumbnail {
+  border-radius: 12px;
+}
+.info {
+  margin-left: 24px;
+}
+
+.rating {
+  display: grid;
+  grid-template-columns: 72px 72px;
+  margin-bottom: 14px;
+}
+.like,
+.dislike {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+}
+.like {
+    color: #626264;
+}
+.dislike {
+    color: #878787;
+}
+.likeIcon,
+.dislikeIcon {
+    margin-right: 4px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
