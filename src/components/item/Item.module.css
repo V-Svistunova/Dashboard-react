@@ -1,0 +1,27 @@
+
+.item {
+  max-width: 230px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  padding: 16px;  
+  color: #878787;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 24px;
+}
+
+.itemActive {
+  color: #503E9D;
+  background: rgba(80, 62, 157, 0.1);
+}
+

@@ -6,6 +6,7 @@ import Headline from './components/headline/Headline';
 import Title from './components/title/Title';
 import Channel from './components/channel/Channel';
 import News from './components/news/News';
+import Item from './components/item/Item';
 
 // Headlines images
 
@@ -31,6 +32,18 @@ import image1 from './assets/images/news/image-1.png';
 import image2 from './assets/images/news/image-2.png';
 import image3 from './assets/images/news/image-3.png';
 
+// App images
+
+import logotype from './assets/images/logotype.png';
+import icon1 from './assets/images/item/icon-1.svg'
+import icon2 from './assets/images/item/icon-2.svg'
+import icon3 from './assets/images/item/icon-3.svg'
+import icon4 from './assets/images/item/icon-4.svg'
+import icon5 from './assets/images/item/icon-5.svg'
+import icon6 from './assets/images/item/icon-6.svg'
+import icon7 from './assets/images/item/icon-7.svg'
+
+
 
 
 function App() {
@@ -42,7 +55,20 @@ function App() {
       </header>
 
       <aside className={s.sidebar}>
-        <h1>hi!</h1>
+        <img className={s.logotype} src={logotype} alt="logotype" />
+        <div className={s.items}>
+          <div className={s.itemStart}>
+            <Item style={{color: "#503E9D" , background: "rgba(80, 62, 157, 0.3)"}} name='1' color='#503E9D' sizeW='24' sizeH='23' className='icon1' icon={icon1} title="Home" />
+            <Item name='2' color='#878787' sizeW='24' sizeH='24' className='icon2' icon={icon2} title="Explore" />
+            <Item name='3' color='#878787' sizeW='18' sizeH='24' className='icon3' icon={icon3} title="Saved" />
+            <Item name='4' color='#878787' sizeW='24' sizeH='24' className='icon4' icon={icon4} title="Subscriptions" />
+            <Item name='5' color='#878787' sizeW='24' sizeH='19' className='icon5' icon={icon5} title="Messages" />
+            <Item name='6' color='#878787' sizeW='24' sizeH='24' className='icon6' icon={icon6} title="Settings" />
+          </div>
+          <div className={s.itemEnd}>
+            <Item name='7' color='#878787' sizeW='24' sizeH='24' className='7' icon={icon7} title="Logout" />
+          </div>
+        </div>
       </aside>
 
       <main className={s.main}>

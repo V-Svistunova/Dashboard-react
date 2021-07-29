@@ -16,6 +16,20 @@
 .sidebar {
   grid-area: s;
   background-color: #F8F8F8;
+  padding: 34px 16px;
+}
+
+.logotype {
+  display: block;
+  margin: 0 auto;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 510px;    
+  padding: 34px 0;
 }
 
 .main {
@@ -40,5 +54,5 @@
 }
 
 .news {
-  
+  padding-bottom: 27px;
 }
