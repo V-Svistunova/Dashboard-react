@@ -1,0 +1,28 @@
+
+.news {
+  max-width: 340px;
+}
+
+.image {
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.wrapper {
+  max-height: 48px;
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: 224px 1fr;
+  grid-column-gap: 30px;
+}
+
+.block {
+  max-height: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}

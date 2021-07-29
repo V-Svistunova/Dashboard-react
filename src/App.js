@@ -1,7 +1,11 @@
 import s from './App.module.css';
+
+// Components
+
 import Headline from './components/headline/Headline';
 import Title from './components/title/Title';
 import Channel from './components/channel/Channel';
+import News from './components/news/News';
 
 // Headlines images
 
@@ -21,17 +25,28 @@ import logo4 from './assets/images/channel/logo-4.png';
 import logo5 from './assets/images/channel/logo-5.png';
 import logo6 from './assets/images/channel/logo-6.png';
 
+// News images
+
+import image1 from './assets/images/news/image-1.png';
+import image2 from './assets/images/news/image-2.png';
+import image3 from './assets/images/news/image-3.png';
+
+
 
 function App() {
   return (
     <div className={s.app}>
+
       <header className={s.header}>
         <h1>hello</h1>
       </header>
+
       <aside className={s.sidebar}>
         <h1>hi!</h1>
       </aside>
+
       <main className={s.main}>
+
       <Title title="Explore Channels" />
       <div className={s.channels}>
         <Channel logo={logo1} title="FOX NEWS" />
@@ -41,6 +56,7 @@ function App() {
         <Channel logo={logo5} title="BBC NEWS" />
         <Channel logo={logo6} title="CNN NEWS" />
       </div>
+
       <Title title="Today’s Headlines" />
       <div className={s.headlines}>
         <Headline likes="10.8k" dislikes="1.4k" labelText="BBC NEWS" time="11:25 pm" thumbnail={img1} title="Ontario Liberal leadership" />
@@ -50,8 +66,15 @@ function App() {
         <Headline likes="9.5k" dislikes="1.4k" labelText="CW6 NEWS" time="9:20 pm" thumbnail={img5} title="Mother of Stefanie Rengel" />
         <Headline likes="100.2k" dislikes="1.4k" labelText="CNN NEWS" time="10:05 pm" thumbnail={img6} title="World Cup: Popular items" />
       </div>
+
       <Title title="Featured News" />
+      <div className={s.news}>
+        <News time="2:00 pm" labelText="FOX NEWS" title="Travellers to pay more than $2K, Trudeau says" image={image1} />
+        <News time="6:15 pm" labelText="CNN NEWS" title="Myanmar’s military seizes control of country ov  er..." image={image2} />
+        <News time="17:44 pm" labelText="BBC NEWS" title="Pressure builds for Biden to cancel other pipeline..." image={image3} />
+      </div>
       </main>
+
     </div>
   );
 }

@@ -24,6 +24,7 @@
   padding: 0 32px;
 }
 
+.news,
 .channels {
   width: 100%;
   display: flex;
@@ -31,10 +32,13 @@
   flex-wrap: wrap;
 }
 
-
 .headlines {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 30px;
   grid-row-gap: 30px;
+}
+
+.news {
+  
 }
