@@ -14,11 +14,11 @@ function Headline(props) {
         <ArticleTitle title={props.title} />
         <div className={s.rating}>
           <div className={s.like}>
-            <img className={s.likeIcon} src={likeIcon} alt="" />
+            <img className={s.likeIcon} src={likeIcon} alt="likeIcon" />
             <span className={s.text}>{props.likes}</span>
           </div>
           <div className={s.dislike}>
-            <img className={dislikeIcon} src={dislikeIcon} alt="" />
+            <img className={dislikeIcon} src={dislikeIcon} alt="islikeIcon" />
             <span className={s.text}>{props.dislikes}</span>
           </div>
         </div>
