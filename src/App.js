@@ -1,13 +1,5 @@
 import s from './App.module.css';
 
-// Components
-
-import Headline from './components/headline/Headline';
-import Title from './components/title/Title';
-import Channel from './components/channel/Channel';
-import News from './components/news/News';
-import Item from './components/item/Item';
-import Option from './components/option/Option';
 
 // Headlines images
 
@@ -50,6 +42,16 @@ import icon9 from './assets/images/option/icon9.svg';
 import icon10 from './assets/images/option/icon10.svg';
 import icon11 from './assets/images/option/icon11.svg';
 
+// Components
+
+import Headline from './components/headline/Headline';
+import Title from './components/title/Title';
+import Channel from './components/channel/Channel';
+import News from './components/news/News';
+import Item from './components/item/Item';
+import Option from './components/option/Option';
+import Search from './components/search/Search';
+
 
 
 
@@ -64,7 +66,7 @@ function App() {
             <Option icon={icon10} title="Analysis" />
             <Option icon={icon11} title="Monthly" />
           </div>
-          <div className={s.search}>  </div>
+          <Search/>
 
         </div>        
       </header>
