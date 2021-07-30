@@ -7,6 +7,7 @@ import Title from './components/title/Title';
 import Channel from './components/channel/Channel';
 import News from './components/news/News';
 import Item from './components/item/Item';
+import Option from './components/option/Option';
 
 // Headlines images
 
@@ -35,13 +36,19 @@ import image3 from './assets/images/news/image-3.png';
 // App images
 
 import logotype from './assets/images/logotype.png';
-import icon1 from './assets/images/item/icon-1.svg'
-import icon2 from './assets/images/item/icon-2.svg'
-import icon3 from './assets/images/item/icon-3.svg'
-import icon4 from './assets/images/item/icon-4.svg'
-import icon5 from './assets/images/item/icon-5.svg'
-import icon6 from './assets/images/item/icon-6.svg'
-import icon7 from './assets/images/item/icon-7.svg'
+import icon1 from './assets/images/item/icon-1.svg';
+import icon2 from './assets/images/item/icon-2.svg';
+import icon3 from './assets/images/item/icon-3.svg';
+import icon4 from './assets/images/item/icon-4.svg';
+import icon5 from './assets/images/item/icon-5.svg';
+import icon6 from './assets/images/item/icon-6.svg';
+import icon7 from './assets/images/item/icon-7.svg';
+
+// Options images
+
+import icon9 from './assets/images/option/icon9.svg';
+import icon10 from './assets/images/option/icon10.svg';
+import icon11 from './assets/images/option/icon11.svg';
 
 
 
@@ -51,7 +58,15 @@ function App() {
     <div className={s.app}>
 
       <header className={s.header}>
-        <h1>hello</h1>
+        <div className={s.wrapper}>
+          <div className={s.options}>
+            <Option icon={icon9} title="San Francisco, California" />
+            <Option icon={icon10} title="Analysis" />
+            <Option icon={icon11} title="Monthly" />
+          </div>
+          <div className={s.search}>  </div>
+
+        </div>        
       </header>
 
       <aside className={s.sidebar}>
@@ -73,17 +88,19 @@ function App() {
 
       <main className={s.main}>
 
-      <Title title="Explore Channels" />
+      <Title title="Explore Channels" link="#" linkName="See all" name='8' color='#878787' sizeW='8' sizeH='12'/>
+
       <div className={s.channels}>
         <Channel logo={logo1} title="FOX NEWS" />
         <Channel logo={logo2} title="CW6 NEWS" />
-        <Channel logo={logo3} title="CW6 NEWS" />
+        <Channel logo={logo3} title="ABC NEWS" />
         <Channel logo={logo4} title="AL JAZEERA" />
         <Channel logo={logo5} title="BBC NEWS" />
         <Channel logo={logo6} title="CNN NEWS" />
       </div>
 
-      <Title title="Today’s Headlines" />
+      <Title title="Today’s Headlines" link="#" linkName="See all" name='8' color='#878787' sizeW='8' sizeH='12'/>
+
       <div className={s.headlines}>
         <Headline likes="10.8k" dislikes="1.4k" labelText="BBC NEWS" time="11:25 pm" thumbnail={img1} title="Ontario Liberal leadership" />
         <Headline likes="10.4k" dislikes="3.4k" labelText="FOX NEWS" time="2:00 pm" thumbnail={img2} title="Hate speech vs free speech" />
@@ -93,7 +110,8 @@ function App() {
         <Headline likes="100.2k" dislikes="1.4k" labelText="CNN NEWS" time="10:05 pm" thumbnail={img6} title="World Cup: Popular items" />
       </div>
 
-      <Title title="Featured News" />
+      <Title title="Featured News" link="#" linkName="See all" name='8' color='#878787' sizeW='8' sizeH='12'/>
+
       <div className={s.news}>
         <News time="2:00 pm" labelText="FOX NEWS" title="Travellers to pay more than $2K, Trudeau says" image={image1} />
         <News time="6:15 pm" labelText="CNN NEWS" title="Myanmar’s military seizes control of country ov  er..." image={image2} />
