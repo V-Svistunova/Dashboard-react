@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Dashboard-react/static/css/main.554dbaf5.css",
+    "main.js": "/Dashboard-react/static/js/main.e0173ae7.js",
+    "static/js/787.81a58f05.chunk.js": "/Dashboard-react/static/js/787.81a58f05.chunk.js",
+    "static/media/image-2.png": "/Dashboard-react/static/media/image-2.54db7e4a76c334d85236.png",
+    "static/media/image-3.png": "/Dashboard-react/static/media/image-3.e5344f2208e99ed0e150.png",
+    "static/media/image-1.png": "/Dashboard-react/static/media/image-1.1a954d2e8cebc439d569.png",
+    "static/media/img-6.png": "/Dashboard-react/static/media/img-6.6d082e6b8a5463a3dda0.png",
+    "static/media/img-1.png": "/Dashboard-react/static/media/img-1.764497c886297b9657eb.png",
+    "static/media/img-5.png": "/Dashboard-react/static/media/img-5.e6e75b1ddfa4e0623f23.png",
+    "static/media/img-2.png": "/Dashboard-react/static/media/img-2.8cfb561d9f2a3e1d052c.png",
+    "static/media/img-4.png": "/Dashboard-react/static/media/img-4.b567b28dedc99ca74657.png",
+    "static/media/img-3.png": "/Dashboard-react/static/media/img-3.b38397f0ebc45dfa18c3.png",
+    "static/media/icons.svg": "/Dashboard-react/static/media/icons.91408763dfed938c02802edc6aac3452.svg",
+    "static/media/icon11.svg": "/Dashboard-react/static/media/icon11.5ed763d513d38e0430f7231eaaba2fd3.svg",
+    "static/media/icon-7.svg": "/Dashboard-react/static/media/icon-7.2cf55dc06d6f94cdb48d5057c34ae46f.svg",
+    "static/media/icon-6.svg": "/Dashboard-react/static/media/icon-6.e1f38f3bccd5f7aa8e12a79df08fd47f.svg",
+    "index.html": "/Dashboard-react/index.html",
+    "static/media/icon10.svg": "/Dashboard-react/static/media/icon10.f25077e9c0928ed23fca166d6aac8a5c.svg",
+    "static/media/icon9.svg": "/Dashboard-react/static/media/icon9.06a69983368e627d1f8ad79122bb331f.svg",
+    "static/media/clock.svg": "/Dashboard-react/static/media/clock.de86142ca6c1bacd70e6ad96c0101f00.svg",
+    "static/media/icon-4.svg": "/Dashboard-react/static/media/icon-4.42121780ac24e1bccd64a57ebda70547.svg",
+    "static/media/dislike.svg": "/Dashboard-react/static/media/dislike.32e4f39c6ca4c8db94c2a8ca6450c8df.svg",
+    "static/media/like.svg": "/Dashboard-react/static/media/like.674a978e9d94a5d2133b648c7aec7291.svg",
+    "static/media/icon-2.svg": "/Dashboard-react/static/media/icon-2.3492a08214f745877d194e7603fbecea.svg",
+    "static/media/icon-5.svg": "/Dashboard-react/static/media/icon-5.d5c1f5edd223db5f3386f2250614240c.svg",
+    "static/media/icon-1.svg": "/Dashboard-react/static/media/icon-1.e37e0b19438f4902635090fd68f15216.svg",
+    "static/media/icon-3.svg": "/Dashboard-react/static/media/icon-3.170411a770011b59a7de784a3090031c.svg",
+    "main.554dbaf5.css.map": "/Dashboard-react/static/css/main.554dbaf5.css.map",
+    "main.e0173ae7.js.map": "/Dashboard-react/static/js/main.e0173ae7.js.map",
+    "787.81a58f05.chunk.js.map": "/Dashboard-react/static/js/787.81a58f05.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.554dbaf5.css",
+    "static/js/main.e0173ae7.js"
+  ]
+}
