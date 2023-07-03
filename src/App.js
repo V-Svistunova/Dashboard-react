@@ -59,17 +59,7 @@ function App() {
   return (
     <div className={s.app}>
 
-      <header className={s.header}>
-        <div className={s.wrapper}>
-          <div className={s.options}>
-            <Option icon={icon9} title="San Francisco, California" />
-            <Option icon={icon10} title="Analysis" />
-            <Option icon={icon11} title="Monthly" />
-          </div>
-          <Search/>
 
-        </div>        
-      </header>
 
       <aside className={s.sidebar}>
         <img className={s.logotype} src={logotype} alt="logotype" />
@@ -88,38 +78,53 @@ function App() {
         </div>
       </aside>
 
-      <main className={s.main}>
+      <article className={s.article}>
+        <header className={s.header}>
+          <div className={s.wrapper}>
+            <div className={s.options}>
+              <Option icon={icon9} title="San Francisco, California" />
+              <Option icon={icon10} title="Analysis" />
+              <Option icon={icon11} title="Monthly" />
+            </div>
+            <Search/>
 
-      <Title title="Explore Channels" link="#" linkName="See all" name='8' color='#878787' sizeW='8' sizeH='12'/>
+          </div>        
+        </header>
+        <main className={s.main}>
 
-      <div className={s.channels}>
-        <Channel logo={logo1} title="FOX NEWS" />
-        <Channel logo={logo2} title="CW6 NEWS" />
-        <Channel logo={logo3} title="ABC NEWS" />
-        <Channel logo={logo4} title="AL JAZEERA" />
-        <Channel logo={logo5} title="BBC NEWS" />
-        <Channel logo={logo6} title="CNN NEWS" />
-      </div>
+          <Title title="Explore Channels" link="#" linkName="See all" name='8' color='#878787' sizeW='8' sizeH='12'/>
 
-      <Title title="Today’s Headlines" link="#" linkName="See all" name='8' color='#878787' sizeW='8' sizeH='12'/>
+          <div className={s.channels}>
+            <Channel logo={logo1} title="FOX NEWS" />
+            <Channel logo={logo2} title="CW6 NEWS" />
+            <Channel logo={logo3} title="ABC NEWS" />
+            <Channel logo={logo4} title="AL JAZEERA" />
+            <Channel logo={logo5} title="BBC NEWS" />
+            <Channel logo={logo6} title="CNN NEWS" />
+          </div>
 
-      <div className={s.headlines}>
-        <Headline likes="10.8k" dislikes="1.4k" labelText="BBC NEWS" time="11:25 pm" thumbnail={img1} title="Ontario Liberal leadership" />
-        <Headline likes="10.4k" dislikes="3.4k" labelText="FOX NEWS" time="2:00 pm" thumbnail={img2} title="Hate speech vs free speech" />
-        <Headline likes="20.8k" dislikes="1.1k" labelText="AL JAZEERA" time="1:59 pm" thumbnail={img3} title="Victim of Scarborough" />
-        <Headline likes="0k" dislikes="20k" labelText="ABC NEWS" time="36:14 pm" thumbnail={img4} title="Mother who left her baby" />
-        <Headline likes="9.5k" dislikes="1.4k" labelText="CW6 NEWS" time="9:20 pm" thumbnail={img5} title="Mother of Stefanie Rengel" />
-        <Headline likes="100.2k" dislikes="1.4k" labelText="CNN NEWS" time="10:05 pm" thumbnail={img6} title="World Cup: Popular items" />
-      </div>
+          <Title title="Today’s Headlines" link="#" linkName="See all" name='8' color='#878787' sizeW='8' sizeH='12'/>
 
-      <Title title="Featured News" link="#" linkName="See all" name='8' color='#878787' sizeW='8' sizeH='12'/>
+          <div className={s.headlines}>
+            <Headline likes="10.8k" dislikes="1.4k" labelText="BBC NEWS" time="11:25 pm" thumbnail={img1} title="Ontario Liberal leadership" />
+            <Headline likes="10.4k" dislikes="3.4k" labelText="FOX NEWS" time="2:00 pm" thumbnail={img2} title="Hate speech vs free speech" />
+            <Headline likes="20.8k" dislikes="1.1k" labelText="AL JAZEERA" time="1:59 pm" thumbnail={img3} title="Victim of Scarborough" />
+            <Headline likes="0k" dislikes="20k" labelText="ABC NEWS" time="36:14 pm" thumbnail={img4} title="Mother who left her baby" />
+            <Headline likes="9.5k" dislikes="1.4k" labelText="CW6 NEWS" time="9:20 pm" thumbnail={img5} title="Mother of Stefanie Rengel" />
+            <Headline likes="100.2k" dislikes="1.4k" labelText="CNN NEWS" time="10:05 pm" thumbnail={img6} title="World Cup: Popular items" />
+          </div>
 
-      <div className={s.news}>
-        <News time="2:00 pm" labelText="FOX NEWS" title="Travellers to pay more than $2K, Trudeau says" image={image1} />
-        <News time="6:15 pm" labelText="CNN NEWS" title="Myanmar’s military seizes control of country ov  er..." image={image2} />
-        <News time="17:44 pm" labelText="BBC NEWS" title="Pressure builds for Biden to cancel other pipeline..." image={image3} />
-      </div>
-      </main>
+          <Title title="Featured News" link="#" linkName="See all" name='8' color='#878787' sizeW='8' sizeH='12'/>
+
+          <div className={s.news}>
+            <News time="2:00 pm" labelText="FOX NEWS" title="Travellers to pay more than $2K, Trudeau says" image={image1} />
+            <News time="6:15 pm" labelText="CNN NEWS" title="Myanmar’s military seizes control of country ov  er..." image={image2} />
+            <News time="17:44 pm" labelText="BBC NEWS" title="Pressure builds for Biden to cancel other pipeline..." image={image3} />
+          </div>
+          
+        </main>
+      </article>
+
 
     </div>
   );
